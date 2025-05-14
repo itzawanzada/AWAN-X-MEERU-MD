@@ -1,0 +1,36 @@
+{
+  "name": "AWAN-X-MEERU-MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝑨𝑾𝑨𝑵 𝒁𝑨𝑫𝑨👑",
+  "logo": "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": "AWAN-X-MEERU-MD~TUBiyLzS#3Y1xnBsnSv0TxACPNctOmQB82Knoe-iJ2KxI1Kunez8"
+    },  
+    
+    "ALIVE_IMG": {
+      "description": "you can use this public mongodb url if you have your personal key So you can use him.",
+      "required": true,
+      "value": "https://i.ibb.co/mbGXCfd/Manul-Ofc-X.jpg"
+    },
+
+    "ALIVE_MSG": {
+      "description": "you can use this public mongodb url if you have your personal key So you can use him.",
+      "required": true,
+      "value": "*🤍HII I'M ONLINE DEAR NOW CAN I HELP YOU POWERED BY AWAN*"
+   }
+   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
